@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D3D3D3;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+.top {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #FFF;
+    border: 1px solid #ECE8E8;
+    width: 100%;
+    height: 70px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+    margin-left: 32%;
+    padding: 60px;
+    
+}
+
+
+/* INCIO BACKGROUND HOME */
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+}
+
+
+.item-back{
+    width: 50%;
+    height: 75vh;
+}
+
+#back-home{
+    width: 100%;
+    height: 75vh;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ECE8E8;
+    width: 50%;
+    height: 75vh;
+}
+
+.login-form h2{
+    display: flex;
+    justify-content: left;
+    color: #59ACB5;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.login-form h4{
+    color: #F5874F;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.form{
+    width: 215px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 100px;
+    margin-top: 5px;
+    background-color: #ECE8E8;
+}
+
+#entrar{
+    background-color: #0A84FF;
+    color: #FFF;
+    width: 215px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#entrar:hover{
+    color: white;
+    background-color: #F5874F;
+}
+
+a{
+    width: 108px;
+    height: 12px;
+    margin-left: 150px;
+    font-size: 10px;
+    font-weight: bold;
+    display: block;
+    color: #F5874F;
+    margin-top: 21px;
+    text-decoration: none;
+}
+
+
+#register{
+    width: 270px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+#text-create{
+    color: #59ACB5;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+#useyour{
+    color:#59ACB5;
+}
+#brain-logo{
+    display: flex;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    color: #F5874F;
+}
+
+
+.form-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu #logincreate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+/* FIM BACKGROUND HOME */
+
+/* INICIO FOOTER */
+
+footer{
+    background-color: #D3D3D3;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+}
+
+.itens-footer{
+    display: flex;
+    margin-top: 30px;
+}
+
+.space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    color: #8B8B8B;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* FIM FOOTER */
